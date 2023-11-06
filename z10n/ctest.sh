@@ -1,0 +1,1 @@
+g++ -lcrypto -lpthread -fPIC ztest.cpp --shared -o libctest.so

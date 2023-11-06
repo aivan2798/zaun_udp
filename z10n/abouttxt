@@ -1,0 +1,3 @@
+- fork 3 follows a different implementation such that the server controls the port changes at the client side.
+- inports are global
+- send missing pdu function is also global

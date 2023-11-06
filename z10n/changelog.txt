@@ -1,0 +1,18 @@
+#changed the mtu from 5 to 9
+#removed the wait for rreset_tail function
+#both of these incentives reduced download time
+#zip server side has no packet ack soo, i decided to add manual timers for the rreset signal in babylon_constants reetTCOUNT
+#in z10n.h line 432 client_pod &clientpod = client_pod_map->second;//[client_id];
+
+In this build, i will be slightly changing the algorithm...in this change, on receiving cr n ct signals...the cr n ct signals will
+also carry the batch count showing the batch group a specific client port will be handling.
+the server will add the
+client sockaddr structures in a vector for tx n rx, such that on starting the communication process, only one sockaddr struct is picked
+from the client's sockaddr structs and will only change wen the Tcount is reached.
+
+each client port will be associated with a batch count entity which is associated with a sockaddr structure
+and a thread signals the batch count the client_port thread will be handling.
+
+
+On reaching the MAX_TCOUNT, the client handler starts 
+  implementation 0, just added a back index processor

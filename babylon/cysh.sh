@@ -1,0 +1,1 @@
+g++ -lcrypto -lpthread -fPIC babylonia.cpp --shared -o libbabylonia.so

@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1679791385 source:d:\algoo\code8\cpp\codeblocks\systemx\xion_client\babylon\main.cpp
+	<iostream>
+	"Babylon.h"
+
+1679791385 "
+
+1678244166 d:\algoo\code8\cpp\codeblocks\systemx\xion_client\babylon\babylon.h
+	<deque>
+	<vector>
+	<winsock2.h>
+	<future>
+	<array>
+	<map>
+	"babylon_constants.h"
+	"Babylon_Utils.h"
+
+1678244166 tils.h"
+
+1674591560 d:\algoo\code8\cpp\codeblocks\systemx\xion_client\babylon\babylon_constants.h
+
+1674593292 d:\algoo\code8\cpp\codeblocks\systemx\xion_client\babylon\babylon_utils.h
+
+1679973506 source:/home/pi/code8/cmetal/Babylon/main.cpp
+	<iostream>
+	"Babylon.h"
+
+1679973835 /home/pi/code8/cmetal/Babylon/Babylon.h
+	<deque>
+	<vector>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<future>
+	<array>
+	<map>
+	<string.h>
+	"babylon_constants.h"
+	"Babylon_Utils.h"
+
+1679972351 /home/pi/code8/cmetal/Babylon/babylon_constants.h
+
+1679973481 /home/pi/code8/cmetal/Babylon/Babylon_Utils.h
+
+1689470331 source:/home/aivan/codebox/codespaces/workspaces/baremetal/Babylons/babylon/main.cpp
+	<iostream>
+	<fstream>
+	"Babylon.h"
+
+1689470209 /home/aivan/codebox/codespaces/workspaces/baremetal/Babylons/babylon/Babylon.h
+	<deque>
+	<vector>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<future>
+	<array>
+	<map>
+	<string.h>
+	"babylon_constants.h"
+	"Babylon_Utils.h"
+
+1687403788 /home/aivan/codebox/codespaces/workspaces/baremetal/Babylons/babylon/babylon_constants.h
+
+1688703053 /home/aivan/codebox/codespaces/workspaces/baremetal/Babylons/babylon/Babylon_Utils.h
+
+1696038167 source:/home/aivan/codebox/codespaces/workspaces/baremetal/FOCUS/Zaun Udp/babylon/main.cpp
+	<iostream>
+	<fstream>
+	"Babylon.h"
+	"enc.h"
+
+1696027822 /home/aivan/codebox/codespaces/workspaces/baremetal/FOCUS/Zaun Udp/babylon/Babylon.h
+	<deque>
+	<vector>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<future>
+	<array>
+	<map>
+	<string.h>
+	"babylon_constants.h"
+	"Babylon_Utils.h"
+
+1687403788 /home/aivan/codebox/codespaces/workspaces/baremetal/FOCUS/Zaun Udp/babylon/babylon_constants.h
+
+1688703053 /home/aivan/codebox/codespaces/workspaces/baremetal/FOCUS/Zaun Udp/babylon/Babylon_Utils.h
+
+1695839418 /home/aivan/codebox/codespaces/workspaces/baremetal/FOCUS/Zaun Udp/babylon/enc.h
+	<iostream>
+	<openssl/bio.h>
+	<openssl/evp.h>
+
